@@ -155,6 +155,12 @@ nav .title span {
     align-items: left;
     border-radius: 1rem;
     box-shadow: 0 4px 2px rgb(139, 139, 139);
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: rgb(221, 221, 221);
+    transition: 0.3s;
 }
 
 .card_title{
@@ -281,6 +287,12 @@ nav .title span {
     border-radius: 1rem;
     box-shadow: 0 4px 2px rgb(139, 139, 139);
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.logo_btns .btns button:hover{
+    background: rgb(221, 221, 221);
+    transition: 0.3s;
 }
 
 .btns button span{
@@ -334,6 +346,12 @@ nav .title span {
     border-radius: 1rem;
     box-shadow: 0 4px 2px rgb(139, 139, 139);
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.info_item button:hover{
+    background: rgb(221, 221, 221);
+    transition: 0.3s;
 }
 
 .info_item button span{

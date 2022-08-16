@@ -2,7 +2,7 @@
 
     <nav>
         <div class="title">
-            <img src="../assets/Logo 1.png" alt="Logo">
+            <img src="../assets/Logo_1.png" alt="Logo">
             <span>Gente Prevalente</span>
         </div>
         <div class="search">
