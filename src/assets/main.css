@@ -19,6 +19,10 @@ body{
     overflow-x: hidden;
 }
 
+.active {
+    cursor: pointer;
+}
+
 #app {
     width: 100%;
     position: relative;
@@ -205,6 +209,7 @@ nav .title span {
     color: #26B4FF;
     text-decoration: none;
     font-size: 1.3rem;
+    cursor: pointer;
 }
 
 .component_record p {
@@ -275,6 +280,7 @@ nav .title span {
     background: white;
     border-radius: 1rem;
     box-shadow: 0 4px 2px rgb(139, 139, 139);
+    cursor: pointer;
 }
 
 .btns button span{
@@ -327,6 +333,7 @@ nav .title span {
     background: white;
     border-radius: 1rem;
     box-shadow: 0 4px 2px rgb(139, 139, 139);
+    cursor: pointer;
 }
 
 .info_item button span{
@@ -345,10 +352,22 @@ nav .title span {
     justify-content: space-between;
     width: 40%;
     margin-top: 2rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
 }
 
 .company_arrows p{
-    color:#525252;
+    color:#929292;
+}
+
+.company_arrows svg {
+    fill: #9F9F9F;
+    transition: 0.3s;
+}
+
+.company_arrows svg:hover{
+    fill: #2F3337;
+    transition: 0.3s;
 }
 
 .responsive_arrows{
@@ -434,6 +453,7 @@ nav .title span {
     padding: 0 1rem;
 }
 
+
 .file_item:hover{
     background: #cccccc;
     transition: 0.3s;
@@ -441,6 +461,7 @@ nav .title span {
 
 .file_item p{
     font-weight: bold;
+    width: 80%;
 }
 /* filesPopUp -- Fin*/
 
@@ -499,6 +520,21 @@ nav .title span {
         width: 90%;
         margin-top: 2rem;
         margin-bottom: 2rem;
+        cursor: pointer;
+    }
+
+    .responsive_arrows p{
+        color:#929292;
+    }
+
+    .responsive_arrows svg {
+        fill: #9F9F9F;
+        transition: 0.3s;
+    }
+    
+    .responsive_arrows svg:hover{
+        fill: #2F3337;
+        transition: 0.3s;
     }
 
     .company_arrows{

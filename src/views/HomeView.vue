@@ -1,7 +1,7 @@
 <template>
     <NavBarComp></NavBarComp>
     <section class="home">
-        <div class="card">
+        <div class="card active" v-on:click="goToCompanyApproval()">
             <div class="card_title">
                 <div class="img_container">
                     <FactoryIcon></FactoryIcon>
@@ -68,15 +68,20 @@ import UserConfIcon from '../components/icons/UserConfIcon.vue';
 export default {
 
     components: {
-    //Componentes
-    NavBarComp,
-    //Iconos
-    FactoryIcon,
-    ClockIcon,
-    GraphIcon,
-    UserIcon,
-    UserConfIcon
-}
+        //Componentes
+        NavBarComp,
+        //Iconos
+        FactoryIcon,
+        ClockIcon,
+        GraphIcon,
+        UserIcon,
+        UserConfIcon
+    },
+    methods: {
+        goToCompanyApproval() {
+            this.$router.push("/companyApproval");
+        }
+    }
 }
 
 </script>
